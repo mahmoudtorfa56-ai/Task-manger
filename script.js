@@ -15,3 +15,6 @@ addBtn.addEventListener("click", function () {
 
     taskInput.value = "";
 });
+deleteAllBtn.addEventListener("click", function (){
+    tasksList.innerHTML = "";
+});
